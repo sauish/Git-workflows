@@ -4,6 +4,7 @@ resource "aws_s3_bucket" "example" {
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
+    Region = "us-east-1"
 
   }
 }
