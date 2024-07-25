@@ -6,5 +6,6 @@ resource "aws_s3_bucket" "example" {
     Environment = "Dev"
     region = "us-east-1"
     Branch = "new"
+    tag = "Test"
   }
 }
